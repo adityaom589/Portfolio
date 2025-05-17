@@ -64,7 +64,7 @@ header ul{
     border-radius: 50px;
     background-color: rgba(0, 0, 69, 0.30);
     backdrop-filter: blur(10px);
-    box-shadow: 0, 0, 10px #727fde65;
+    box-shadow: 0 0 10px #727fde65;
 
 
 }
@@ -249,12 +249,12 @@ header ul a{
     }
 }
 
-@media (max-aspect-ratio: 16/9){
+/*@media (max-aspect-ratio: 16/9){
     .back-vid{
         width: 100%;
         height: auto;
     }
-}
+}*/
 
 
 .info-section{
@@ -727,7 +727,7 @@ header ul a{
 
 /* FADEIN-RIGHT */
 .fadeInRight{
-    animation: FadeInAnimation both;
+    animation: fadeInAnimation both;
     animation-timeline: view();
 }
 
@@ -747,7 +747,7 @@ header ul a{
     }
 }
 
-/*TABLET RESPONSIVE
+/*TABLET RESPONSIVE*/
 
 @media screen and (max-width: 1000px){
     .blackhole-box video{
@@ -797,5 +797,38 @@ header ul a{
         margin-top: 5%;
     }
 
+
+    .my-projects{
+        margin-bottom: 300px;
     }
-*/
+
+    .project-vidbox video{
+        width: 250px;
+        margin-left: -50px;
+    }
+
+    .project-title{
+        padding-left: 0;
+        margin-left: -50px;
+    }
+
+
+    .project-title h1{
+        font-size: 20px;
+        max-width: 200px;
+        text-wrap: wrap;
+    }
+
+    .project-title p{
+        font-size: 10px;
+        text-wrap: wrap;
+        max-width: 200px;
+        min-width: 0;
+    }
+
+    footer h1{
+        font-size: 20px;
+    }
+}
+
+/*MOBILE Responsive*/
